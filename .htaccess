@@ -1,0 +1,6 @@
+
+RewriteEngine on
+RewriteCond %{HTTP_HOST} ^tienhsiang\.marco\.huhu\.tw$ [OR]
+RewriteCond %{HTTP_HOST} ^www\.tienhsiang\.marco\.huhu\.tw$
+RewriteRule ^/?$ "http\:\/\/www\.tienhsiang\.com\.tw\/" [R=301,L]
+

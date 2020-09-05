@@ -1,0 +1,197 @@
+html {   
+	margin: 0;
+	padding: 0;
+}
+
+body{	
+	margin: 0px;
+	padding: 0px;
+	padding-bottom: 20px;
+	background-color: #fc0;
+
+	color: #666;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 12px;
+}
+
+.clear{
+	clear: both;
+}
+
+#webFrame{
+	position: relative;
+	background-image: url(images/bg.gif);
+	background-repeat: repeat-y;
+	background-position: top center;
+	margin: auto;
+	width: 980px;
+}
+
+#webFrame div.header{
+	background-image: url(images/header.gif);
+	background-repeat: no-repeat;
+	background-position: top center;
+	width: 980px;
+	height: 150px;
+}
+
+#webFrame div.footer{
+	background-image: url(images/footer.gif);
+	background-repeat: no-repeat;
+	background-position: bottom center;
+	width: 980px;
+	height: 160px;
+	z-index: 1;
+}
+
+#webFrame div.body{
+	position: relative;
+	padding:  10px 20px 10px 20px;
+	z-index: 100;
+}
+
+#infoBoard{
+	margin: auto;
+	width: 920px;
+}
+
+#infoBoard div.top{
+	background-image: url(images/top.gif);
+	background-repeat: no-repeat;
+	background-position: top center;
+	height: 10px;
+	overflow: hidden;
+}
+
+#infoBoard div.bottom{
+	background-image: url(images/bottom.gif);
+	background-repeat: no-repeat;
+	background-position: top center;
+	height: 10px;
+	overflow: hidden;
+}
+
+#infoBoard div.content{
+	background-color: #fffae6;
+}
+
+#infoBoard div.content div.show{
+	position: absolute;
+	top: 250px;
+	left: 570px;
+	float: left;
+	color: #FF00FF
+}
+
+#infoBoard div.content div.subject{
+	float: left;
+	width: 300px;
+	text-align: right;
+}
+
+#infoBoard div.content div.subject div.title{
+	font-size: 20px;
+	font-weight: bold;
+	color: #e90;
+	padding-right: 10px;
+}
+
+#infoBoard div.content div.subject div.description{
+	background-color: #e90;
+	padding: 5px;
+	font-size: 16px;
+	font-weight: bold;
+	color: #fff;
+}
+
+#infoBoard div.content div.contactList{
+	float: left;
+	border-left: 1px solid #e90;
+}
+
+#infoBoard div.content div.contactList ul{
+	margin: 0px;
+	padding: 10px 10px 10px 10px;
+	list-style-type: none;
+}
+
+#infoBoard div.content div.contactList li{
+	padding: 3px 20px 3px 20px;
+	border-bottom: 1px dotted #fe9;
+	font-size: 12px;	
+}
+
+#infoBoard div.content div.contactList li a{
+	text-decoration: none;
+	color: #000;
+	font-weight: bold;
+}
+
+#infoBoard div.content div.contactList li a:hover{
+	color: #e90;
+	border-bottom: 1px dotted #e90;
+}
+
+#productList{
+	margin: 0px;
+	padding: 20px 10px 10px 10px;
+	list-style-type: none;
+}
+
+#productList li{
+	border-top: 1px solid #fff;
+	border-left: 1px solid #fff;
+	border-bottom: 1px solid #fda;
+	border-right: 1px solid #fda;
+
+	display:inline-block;
+	zoom: 1;
+	*display: inline;
+	
+	width: 436px;
+	height: 150px;
+	overflow: hidden;
+	padding: 5px 0px 5px 5px;
+	margin: 5px 5px 5px 5px;
+	text-align: left;
+	background-color: #fff;
+}
+
+#productList li div.product{
+	background-repeat: no-repeat;
+	background-position: center left;
+	margin-left: 50px;
+	height: 150px;		
+}
+
+#productList li div.title{
+	margin-left: 170px;
+	padding-top: 30px;
+	color: #ca0;
+	font-size: 18px;
+	font-weight: bold;
+}
+
+#productList li div.description{
+	margin-left: 170px;
+	color: #666;
+	font-size: 12px;
+	font-weight: bold;	
+}
+
+#productList li div.unit{
+	margin-left: 170px;
+	font-size: 12px;
+	color: #9a0;	
+}
+
+#productList li div.price{
+	margin-left: 170px;
+	padding-top: 5px;
+}
+
+#productList li div.price span.foucs{
+	color: #900;
+	font-size: 24px;
+	font-weight: bold;
+}
