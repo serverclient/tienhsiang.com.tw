@@ -79,8 +79,8 @@ body{
 @media screen and (min-width: 1025px) { 
 	#infoBoard div.content div.show{
 		position: absolute;
-		top: 300px;
-		left: 570px;
+		top: 280px;
+		left: 540px;
 		float: left;
 		color: #FF00FF
 	}
