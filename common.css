@@ -73,16 +73,18 @@ body{
 
 #infoBoard div.content{
 	background-color: #fffae6;
+	position: relative;
 }
 
 
 @media screen and (min-width: 1025px) { 
 	#infoBoard div.content div.show{
 		position: absolute;
-		top: 320px;
-		right: 30px;
+		top: 150px;
+		right: 0px;
 		float: right;
 		color: #FF00FF;
+		z-index: 10;
 	}
 	#infoBoard div.content div.show > iframe {
 		width: 400px;
@@ -93,10 +95,11 @@ body{
 @media screen and (max-width: 1024px) { 
 	#infoBoard div.content div.show{
 		position: absolute;
-		top: 320px;
-		right: 30px;
+		top: 150px;
+		right: 0px;
 		float: right;
-		color: #FF00FF
+		color: #FF00FF;
+		z-index: 10;
 	}
 	#infoBoard div.content div.show > iframe {
 		width: 400px;
@@ -107,13 +110,14 @@ body{
 @media screen and (max-width: 430px) and (-webkit-min-device-pixel-ratio: 2) {
     #infoBoard div.content div.show{
 		position: absolute;
-		top: 400px;
-		right: 30px;
+		top: 150px;
+		right: 0px;
 		float: left;
-		color: #FF00FF
+		color: #FF00FF;
+		z-index: 10;
 	}
 	#infoBoard div.content div.show > iframe {
-		width: 350px;
+		width: 300px;
 		height: 180px;
 		border: none;
 	}
@@ -194,7 +198,7 @@ body{
 
 	display:inline-block;
 	zoom: 1;
-	*display: inline;
+	display: inline;
 	
 	width: 436px;
 	height: 150px;
