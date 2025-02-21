@@ -77,8 +77,22 @@ body{
 }
 
 
-@media screen and (min-width: 1025px) { 
-	#infoBoard div.content div.show{
+#infoBoard div.content div.show {
+	position: absolute;
+	top: 150px;
+	right: 0px;
+	float: right;
+	color: #FF00FF;
+	z-index: 10;
+}
+#infoBoard div.content div.show > iframe {
+	width: 400px;
+	height: 225px;
+	border: none;
+}
+ 
+@media (max-width: 1024px) { 
+	#infoBoard div.content div.show {
 		position: absolute;
 		top: 150px;
 		right: 0px;
@@ -88,27 +102,12 @@ body{
 	}
 	#infoBoard div.content div.show > iframe {
 		width: 400px;
-		height: 225px;
-		border: none;
-	}
-} 
-@media screen and (max-width: 1024px) { 
-	#infoBoard div.content div.show{
-		position: absolute;
-		top: 150px;
-		right: 0px;
-		float: right;
-		color: #FF00FF;
-		z-index: 10;
-	}
-	#infoBoard div.content div.show > iframe {
-		width: 400px;
-		height: 225px;
+		height: 226px;
 		border: none;
 	}
 }
-@media screen and (max-width: 430px) {
-    #infoBoard div.content div.show{
+@media (max-width: 480px){ 
+    #infoBoard div.content div.show {
 		position: absolute;
 		top: 150px;
 		right: 0px;
@@ -122,7 +121,6 @@ body{
 		border: none;
 	}
 }
-
 
 #infoBoard div.content div.subject{
 	float: left;
