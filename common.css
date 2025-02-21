@@ -109,7 +109,7 @@ body{
 @media (max-width: 480px){ 
     #infoBoard div.content div.show {
 		position: absolute;
-		top: 150px;
+		top: 170px;
 		right: 0px;
 		float: left;
 		color: #FF00FF;
