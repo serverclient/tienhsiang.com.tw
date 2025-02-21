@@ -81,19 +81,44 @@ body{
 		position: absolute;
 		top: 320px;
 		right: 30px;
-		float: left;
-		color: #FF00FF
+		float: right;
+		color: #FF00FF;
+	}
+	#infoBoard div.content div.show > iframe {
+		width: 400px;
+		height: 225px;
+		border: none;
 	}
 } 
 @media screen and (max-width: 1024px) { 
 	#infoBoard div.content div.show{
 		position: absolute;
-		top: 370px;
-		left: 570px;
+		top: 320px;
+		right: 30px;
+		float: right;
+		color: #FF00FF
+	}
+	#infoBoard div.content div.show > iframe {
+		width: 400px;
+		height: 225px;
+		border: none;
+	}
+}
+@media screen and (max-width: 430px) and (-webkit-min-device-pixel-ratio: 2) {
+    #infoBoard div.content div.show{
+		position: absolute;
+		top: 320px;
+		right: 30px;
 		float: left;
 		color: #FF00FF
 	}
+	#infoBoard div.content div.show > iframe {
+		width: 400px;
+		height: 225px;
+		border: none;
+	}
 }
+
 
 #infoBoard div.content div.subject{
 	float: left;
